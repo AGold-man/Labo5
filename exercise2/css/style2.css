@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puzzle{
+    display: grid;
+    grid-template-rows: (3,1fr);
+    grid-template-columns:(3,1fr);
+    gap: 0px;
+    grid-template-areas:  
+    "piece1 piece1 piece2 piece3"
+     "piece4 piece5 piece5 piece3"
+     "piece6 piece7 piece8 piece8"
+     "piece6 piece9 piece9 piece10";
+
+    max-width: 60%;
+    height: 450px;
+}
+ #gridpiece01{
+    grid-area: piece1;
+ }
+
+ #gridpiece02{
+    grid-area: piece2;
+ }
+
+ #gridpiece03{
+    grid-area: piece3;
+ }
+
+ #gridpiece04{
+    grid-area: piece4;
+ }
+
+ #gridpiece05{
+    grid-area: piece5;
+ }
+
+ #gridpiece06{
+    grid-area: piece6;
+ }
+
+ #gridpiece07{
+    grid-area: piece7;
+ }
+
+ #gridpiece08{
+    grid-area: piece8;
+ }
+ 
+ #gridpiece09{
+    grid-area: piece9;
+ }
+
+ #gridpiece10{
+    grid-area: piece10;
+ }

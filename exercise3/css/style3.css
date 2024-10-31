@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteneur{
+    display: grid;
+    grid-template-columns: 
+    "piece1 piece1"
+    "piece2 piece2"
+    "piece3 piece4"
+    "piece5 piece5";
+}
+header{
+    grid-area: piece1;
+    background-color: cyan;
+    padding: 10px;
+    text-align: left;
+}
+nav{
+    grid-area: piece2;
+    background-color: cyan;
+    padding: 10px;
+    text-align: left;
+}
+
+aside{
+    grid-area: piece3;
+    background-color: cyan;
+    padding: 10px;
+    text-align: left;
+}
+
+main{
+    grid-area: piece4;
+    background-color: cyan;
+    padding: 10px;
+    text-align: left;
+}
+
+footer{
+    grid-area: piece5;
+    background-color: cyan;
+    padding: 10px;
+    text-align: left;
+}
+
